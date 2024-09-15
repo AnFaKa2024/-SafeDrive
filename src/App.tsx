@@ -1,13 +1,23 @@
-import Cabecalho from "./components/Cabecalho"
+import { Outlet } from "react-router-dom"
+import RodapeCad from "./Components/RodapeCad"
+import DadosCondutor from "./routes/CadUsuario/DadosCondutor"
+import DadosPessoais from "./routes/CadUsuario/DadosPessoais"
+
+
 
 
 function App() {
   
+
   return (
     <>
-      <Cabecalho/>
+      <DadosCondutor/>
+      <br />
+      <DadosPessoais/>
+      <RodapeCad/>
     </>
   )
 }
 
 export default App
+
