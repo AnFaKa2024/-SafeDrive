@@ -21,7 +21,7 @@ export default function Recomendacao3(){
   
     return (
       <div style={styles.container}>
-        <img style={styles.img} src="src\assets\rec3.jpg" alt="Manutenção no carro" />
+        <img style={styles.img} src="src/assets/rec3.jpg" alt="Manutenção no carro" />
         <div style={styles.texto}>
           <p><b>7. Mantenha uma rotina de limpeza:</b> Uma limpeza regular do interior e exterior do carro é essencial.</p>
           <p><b>8. Cuide para evitar danos na lataria:</b> Procure evitar pancadas graves e, se necessário, recorra a serviços de lanternagem para reparos.</p>

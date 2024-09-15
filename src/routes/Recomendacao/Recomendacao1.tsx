@@ -21,7 +21,7 @@ export default function Recomendacao1() {
   
     return (
       <div style={styles.container}>
-        <img style={styles.img} src="src\assets\rec1.jpg" alt="Troca de óleo" />
+        <img style={styles.img} src="src/assets/rec1.jpg" alt="Troca de óleo" />
         <div style={styles.texto}>
           <p><b>1. Evite deixar o carro parado por longos períodos:</b> Mesmo que não utilize o veículo diariamente, é importante ligá-lo 
           por alguns minutos a cada dois dias para preservar a bateria e o sistema elétrico.</p>

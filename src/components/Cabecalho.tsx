@@ -41,7 +41,7 @@ export default function Cabecalho() {
       <h1 style={styles.h1}>Olá, bem-vindo ao SafeDrive</h1>
       <div style={styles.login}>
         <a href="/Paginas/login.html">
-          <img src='src\assets\icone_cliente_branco2.png' alt="Ícone Cliente" style={styles.loginImg} />
+          <img src='src/assets/icone_cliente_branco2.png' alt="Ícone Cliente" style={styles.loginImg} />
         </a>
       </div>
     </header>

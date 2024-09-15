@@ -17,7 +17,7 @@ export default function Cliente() {
     h2: {
       fontSize: '2em',
       textAlign: 'center' as const,
-      color: '#2E0B7D',
+      color: '#2e0b7d',
       marginBottom: '2vw',
     },
     container: {

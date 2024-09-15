@@ -29,7 +29,7 @@ export default function Recomendacao2() {
            <p><b>6. Proteja a pintura:</b> Manter a pintura do carro protegida contra elementos externos, como poeira, dejetos de pássaros e raios solares, 
             ajuda a evitar danos e manter o aspecto novo do veículo.</p>
         </div>
-        <img style={styles.img} src="src\assets\rec2.jpg" alt="Manutenção nos pneus" />
+        <img style={styles.img} src="src/assets/rec2.jpg" alt="Manutenção nos pneus" />
       </div>
     );
   }
