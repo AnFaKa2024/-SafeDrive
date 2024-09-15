@@ -33,7 +33,6 @@ export default function Cabecalho() {
       height: 'auto',
     },
   };
-
   return (
     <header style={styles.headerContainer}>
       <div style={styles.logo}>
