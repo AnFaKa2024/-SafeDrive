@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #bdbdc095;
+  overflow-x: hidden;
+}
+header {
+  font-size: 2vw;
+  background-color: #2e0b7d;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 12vw;
+}
+h1 {
+  text-align: center;
+  color: #fcf8ff;
+  position: relative;
+  top: 1vw;
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.7em;
+}
+
+p {
+  margin: 2vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+}
+
+ul {
+  margin-top: -2.6vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+li {
+  list-style: none;
+  margin-top: -2vw;
+}
+
+a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: #fcf8ff;
+  font-size: 1em;
+}
+
+.logo {
+  margin-top: -4.5vw;
+  padding: 2vw;
+  width: 12%;
+}
+
+section {
+  margin-top: 1vw;
+  padding: 1vw;
+}
+
+.box {
+  margin-left: 3vw;
+}
+.idacesso {
+  margin-left: 6vw;
+}
+
+.box1 {
+  margin-left: 29vw;
+  margin-top: -4.4vw;
+}
+.idveic {
+  margin-left: 10vw;
+}
+
+.box2 {
+  margin-left: 65vw;
+  margin-top: -4.4vw;
+}
+.idcond {
+  margin-left: 12vw;
+}
+
+.usuario {
+  margin-top: 1vw;
+  font-size: 1.3em;
+  padding: 1vw;
+  line-height: 1.5;
+}
+
+.condutor {
+  margin-top: 2vw;
+  font-size: 1.3em;
+  padding: 1vw;
+  line-height: 1.5;
+}
+
+.obs,
+legend {
+  font-size: 1.3em;
+  margin-top: 2vw;
+  padding: 1vw;
+}
+
+footer {
+  margin-top: -1vw;
+  font-size: 1.3em;
+  padding: 1vw;
+}

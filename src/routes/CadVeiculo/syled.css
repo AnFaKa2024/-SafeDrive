@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #bdbdc095;
+  overflow-x: hidden;
+}
+header{
+  font-size: 2em;
+  background-color: #2E0B7D;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 12vw;
+}
+h1{
+  position: relative;
+  top: 1vw;
+  text-align: center;
+  color:#FCF8FF; 
+  font-size: 50px;
+}
+
+
+ul{
+  margin-top: -2.6vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+li{
+  list-style: none;
+  margin-top: -2vw;
+}
+
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color:#FCF8FF; 
+    font-size: 1em;
+}
+
+.logo{
+  margin-top: -4.5vw;
+  padding: 2vw;
+  width: 12%;
+}
+
+.veic, .historico, .obs, .fluido, .filtros{
+  font-size: 1.4em;
+  padding: 1vw;
+  line-height: 1.7;
+
+}
+
+.veic{
+  margin-top: 2vw;
+}
+
+.historico{
+  margin-top: 2vw;
+}
+
+.fluido{
+  margin-top: 2vw;
+}
+.filtros{
+  margin-top: 2vw;
+}
+
+.obs{
+  margin-top: 2vw;
+}
+
+footer{
+  margin-top: -3vw;
+  font-size: 55px;
+  padding:1vw;
+}
