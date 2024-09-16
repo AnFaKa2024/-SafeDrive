@@ -6,9 +6,12 @@ const  GlobalStyle = createGlobalStyle`
     margin: 10;
     padding: 4;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #bdbdc095;
+    overflow-x: hidden;
   }
 
+  
   #root{
     width: 100vw;
     min-height: 100vh;

@@ -33,7 +33,7 @@ export default function DadosPessoais({idNome, idDN,  idDoc, idLogin, idEnd, idS
       <button className= "BotaoConfirmar"  onClick={()=> alert ('Confirmado!')}> Confirmar Informações </button>
       
       {/* Aqui esses dois botões têm que ir para outras paginas */}
-      <button className= "BotaoNovoCondutor"  onClick={()=> alert ('NovoCondutor')}> Cadastrar Novo Condutor </button>
+      <button className= "BotaoNovoCondutor"  onClick={()=> alert ('NovoCondutor')}> Cadastrar Novo Condutor </button>  
       <button className= "BotaoCadastrarVeículo"  onClick={()=> alert ('CadastrarVeículo')}> Cadastrar Veiculo </button>
       
                                                                                                                                 

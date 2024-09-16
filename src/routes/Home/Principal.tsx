@@ -1,16 +1,18 @@
-import { HeaderCabecalho } from "../styled";
+import { HeaderHome } from "../../styled";
 
 
-export default function Cabecalho() {
-  
-  return (
-    <HeaderCabecalho>
-      
-      {/*  CABEÇALHO GERAL */}
-        <h1 >SafeDrive</h1>
-        
+
+export default function Principal(){
+  return(
+
+    
+
+    <HeaderHome>
+    
+        <h1>Olá, seja bem vindo ao SafeDrive</h1>
+
         <img src= '/LG_SafeDrive.png' className="logo"  alt="Logo SafeDrive" />
-        
+        <br />
         <nav className="navegacao">
           <ul>
             <div className="SD">
@@ -24,7 +26,15 @@ export default function Cabecalho() {
             </div>
           </ul>
         </nav>
-      
-    </HeaderCabecalho>
-  );
-};
+        
+        
+        {/* esse login deve ficar na pagina HOME */}
+        <img src='/icone_cliente_branco2.png' className="login" alt="Ícone Cliente"  />
+
+
+      </HeaderHome>
+    
+    
+  )
+
+}
