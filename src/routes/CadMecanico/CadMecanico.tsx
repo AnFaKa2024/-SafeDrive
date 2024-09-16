@@ -1,6 +1,8 @@
 
-import CabecalhoGeral from "../../components/CabecalhoGeral";
+import Cabecalho from "../../components/Cabecalho";
+
 import RodapeCad from "../../Components/RodapeCad";
+import { HeaderVec } from "../../styled";
 import CadMeca from "./CadMeca";
 import CadOficina from "./CadOficina";
 
@@ -11,13 +13,18 @@ export default function CadMecanico(){
   return(
 
     <>
-    <CabecalhoGeral/>
-    <h1>Seja um de nossos parceiros</h1>
-    <form action="cadastro mecanico e oficina" method="get">
-      <CadMeca/>
-      <CadOficina/>
-    </form>
-    <RodapeCad/>
+      <Cabecalho/>
+      <br></br>
+      <HeaderVec>
+        <h1>Seja um de nossos PARCEIROS</h1>
+      </HeaderVec>
+      <form action="cadastro mecanico e oficina" method="get">
+        <CadMeca/>
+        <br />
+        <CadOficina/>
+      </form>
+      <br />
+      <RodapeCad/>
     </>
     
     )

@@ -1,6 +1,5 @@
 
 import Cabecalho from '../../components/Cabecalho';
-import CabecalhoGeral from '../../components/CabecalhoGeral';
 import Rodape from '../../components/Rodape';
 import { DivCliente } from '../../styled';
 import Cliente1 from './Cliente1';
@@ -12,6 +11,7 @@ export default function Cliente(){
     
     <>
         <Cabecalho/>
+        <br />
         <DivCliente>
           <main>
             <h2>Algumas Histórias de Clientes</h2>
@@ -24,6 +24,7 @@ export default function Cliente(){
           
           </main>
         </DivCliente>
+        <br />
       <Rodape/>
     </>
   )

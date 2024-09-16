@@ -1,4 +1,4 @@
-import CabecalhoGeral from "../../components/CabecalhoGeral";
+import Cabecalho from "../../components/Cabecalho";
 import RodapeCad from "../../Components/RodapeCad";
 import DadosCondutor from "./DadosCondutor";
 import DadosPessoais from "./DadosPessoais";
@@ -9,12 +9,12 @@ export default function CadUsuario(){
 
   return(
     <>
-
+      <Cabecalho/>
       <head>
         <title>SAFE DRIVE - CADASTRO USUÁRIO</title>
       </head>   
 
-       <CabecalhoGeral/> 
+       
       
       <form action="cadastro cliente" method="get">
         <DadosPessoais/>

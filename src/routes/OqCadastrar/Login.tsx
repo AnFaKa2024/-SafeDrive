@@ -9,6 +9,15 @@ export default function Login() {
     navigate('/home'); 
   };
 
+  
+
+  const handleCadastro = () => {
+    alert('Faça seu cadastro');
+    navigate('/primeiroacesso'); 
+  };
+
+
+
   return (
     <DivMec>
       <h1><b>SAFE DRIVE</b></h1>
@@ -24,6 +33,12 @@ export default function Login() {
       <button className="BotaoEntrar" onClick={handleLogin}>
         Acessar SafeDrive
       </button>
+
+      
+      <button className="NovoCadastro" onClick={handleCadastro}>
+        Novo Cadastro
+      </button>
+      
       
       <button
         className="BotaoRecuperaSenha"

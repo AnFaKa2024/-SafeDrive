@@ -47,16 +47,16 @@ export default function Corpo(){
         <section className="sec5">
           DIAGNÓSTICO
           <div className="diagnostico">
-            <Link to='/home/cadastroveiculo'>
+            <Link to='/home/diagnostico'>
               <img src="/diagnóstico.png" alt="" />
             </Link>
           </div>
         </section>
 
         <section className="sec6">
-          RECLAMAÇÕES
+            FEEDBACK
           <div className="reclamacao">
-            <Link to='/home/cadastroveiculo'>
+            <Link to='/home/relatos'>
               <img src="/reclamação.png" alt="" />
             </Link>
           </div>

@@ -28,7 +28,7 @@ export const HeaderCabecalho = styled.header`
     
 
     ul, li{
-      margin: 0 180px;
+      margin: 0 150px;
     }
 
 
@@ -444,7 +444,6 @@ export const DivNos = styled.div`
     h1, p {
     text-align: center;
     color: black;
-    
     font-size: 3em;
     }
 
@@ -521,7 +520,48 @@ export const DivNos = styled.div`
 }
 
 `    
+export const HeaderVec = styled.header`
+  h1, p {
+      text-align: center;
+      color: black;
+      font-size: 3em;
+      font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
 
+`
+
+export const DivDiag = styled.div`
+   
+   border: 3px solid #2e0b7d;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   line-height: 1.6em;
+   margin: 1px;
+   padding: 5px;
+   background-color: #f0f0f0;
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 1.05em; 
+   text-align: center;
+   
+
+`
+
+export const DivHistHome = styled.div`
+   
+   border: 3px solid #2e0b7d;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   margin: 1px;
+   padding: 5px;
+   background-color: #f0f0f0;
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 1.05em; 
+   text-align: center;
+   
+
+
+
+`
 
 
 
