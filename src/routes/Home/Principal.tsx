@@ -16,13 +16,13 @@ export default function Principal(){
         <nav className="navegacao">
           <ul>
             <div className="SD">
-              <li><Link to='/safedrive'>SafeDrive</Link></li>
+              <li><Link to='/home/safedrive'>SafeDrive</Link></li>
             </div>
             <div className="Cl">
-              <li><Link to='/cliente'>Clientes</Link></li>
+              <li><Link to='/home/cliente'>Clientes</Link></li>
             </div>
             <div className="Rec">
-              <li><Link to='/recomendacao'>Recomendações</Link></li>
+              <li><Link to='/home/recomendacao'>Recomendações</Link></li>
             </div>
           </ul>
       </nav>

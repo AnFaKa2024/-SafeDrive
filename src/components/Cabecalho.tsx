@@ -1,5 +1,5 @@
 import { HeaderCabecalho } from "../styled";
-
+import {Link} from 'react-router-dom'
 
 export default function Cabecalho() {
   
@@ -13,14 +13,17 @@ export default function Cabecalho() {
         
         <nav className="navegacao">
           <ul>
+            <div className="Home">
+            <li><Link to='/home'>Home</Link></li>
+            </div>
             <div className="SD">
-              <li><a href="">SafeDrive</a></li>
+              <li><Link to='/home/safedrive'>SafeDrive</Link></li>
             </div>
             <div className="Cl">
-              <li><a href="">Clientes</a></li>
+              <li><Link to='/home/cliente'>Clientes</Link></li>
             </div>
             <div className="Rec">
-              <li><a href="">Recomendações</a></li>
+              <li><Link to='/home/recomendacao'>Recomendações</Link></li>
             </div>
           </ul>
         </nav>

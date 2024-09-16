@@ -20,7 +20,6 @@ export default function CadUsuario(){
         <DadosPessoais/>
         <DadosCondutor/>
         <ObsUser/>
-        <RodapeCad/>
       </form>
       <RodapeCad/>
        

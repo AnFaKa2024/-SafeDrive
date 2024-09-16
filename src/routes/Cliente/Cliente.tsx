@@ -1,4 +1,5 @@
 
+import Cabecalho from '../../components/Cabecalho';
 import CabecalhoGeral from '../../components/CabecalhoGeral';
 import Rodape from '../../components/Rodape';
 import { DivCliente } from '../../styled';
@@ -10,7 +11,7 @@ export default function Cliente(){
   return (
     
     <>
-      <CabecalhoGeral/>
+        <Cabecalho/>
         <DivCliente>
           <main>
             <h2>Algumas Histórias de Clientes</h2>

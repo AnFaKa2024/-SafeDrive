@@ -6,15 +6,17 @@ import App from './App.tsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
+import Login from './routes/OqCadastrar/Login.tsx';
 import Home from './routes/Home/home.tsx';
 import SafeDrive from './routes/SafeDrive/SafeDrive.tsx';
 import Cliente from './routes/Cliente/Cliente.tsx';
 import Recomendacao from './routes/Recomendacao/Recomendacao.tsx';
-import Login from './routes/OqCadastrar/Login.tsx';
 
-import CadMecanico from './routes/CadMecanico/CadMecanico.tsx';
 import CadUsuario from './routes/CadUsuario/CadUsuario.tsx';
+import CadMecanico from './routes/CadMecanico/CadMecanico.tsx';
 import CadVeiculo from './routes/CadVeiculo/CadVeiculo.tsx';
+
+import Historico from './routes/Historico/Historico.tsx';
 
 import NovoCondutor from './routes/OqCadastrar/NovoCondutor.tsx';
 import NovoVeiculo from './routes/OqCadastrar/NovoVeiculo.tsx';
@@ -33,20 +35,22 @@ const router = createBrowserRouter([
     children:[
       /*{path: '/', element: <Home/>},*/
 
-      {path: '/', element: <Home/>},
-      {path: '/safedrive', element: <SafeDrive/>},
-      {path: '/cliente', element: <Cliente/>},
-      {path: '/recomendacao', element: <Recomendacao/>},
-      {path: '/login', element: <Login/>},
+      {path: '/', element: <Login/>},
+      {path: '/home', element: <Home/>},
+      {path: '/home/safedrive', element: <SafeDrive/>},
+      {path: '/home/cliente', element: <Cliente/>},
+      {path: '/home/recomendacao', element: <Recomendacao/>},
 
-      {path: '/cadastrousuario', element: <CadUsuario/>},
+      {path: '/home/cadastrousuario', element: <CadUsuario/>},
       //{path: '/novocondutor/ cadastrousuario', element: <DadosCondutor/>},
 
-      {path: '/cadastromecanico', element: <CadMecanico/>},
+      {path: '/home/cadastromecanico', element: <CadMecanico/>},
       //{path: '/cadastromecanico/cadastrooficina', element: <CadOficina/>},
 
-      {path: '/novoveicuo/ cadastroveiculo', element: <CadVeiculo/>}
+      {path: '/home/cadastroveiculo', element: <CadVeiculo/>},
       //{path: '/novoveiculo', element: <NovoVeiculo/>},
+
+      {path: '/home/historico', element: <Historico/>},
 
       //{path: '/CadUsuario/ novocondutor', element: <NovoCondutor/>},
       //{path: 'primeiroAcesso', element: <PrimeiroAcesso/>},

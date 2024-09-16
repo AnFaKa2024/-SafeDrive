@@ -1,24 +1,36 @@
 import { DivMec } from "../../styled";
- 
-export default function Login(){
- 
-  return(
- 
+import { useNavigate } from "react-router-dom"; 
+
+export default function Login() {
+  const navigate = useNavigate(); 
+
+  const handleLogin = () => {
+    alert('Acessando o portal da SafeDrive');
+    navigate('/home'); 
+  };
+
+  return (
     <DivMec>
- 
       <h1><b>SAFE DRIVE</b></h1>
- 
-          <label htmlFor="idLogin">Login</label>
-          <input type="text" className="login" id="idLogin" />
- 
-          <label htmlFor="idSenha">Senha</label>
-          <input type="password" className="senha" id="isSenha" /*maxlength="6"*/ />
-          <br />
- 
-          <button className="BotaoEntrar" onClick={()=> alert (' Acessando o portal da SafeDrive ')}> Acessar SafeDrive </button>   <button
-          className="BotaoRecuperaSenha" onClick={()=> alert (' Reset da senha enviado para o e-mail cadastrado ')}> Recuperar Senha </button>
- 
- 
+
+      <label htmlFor="idLogin">Login</label>
+      <input type="text" className="login" id="idLogin" />
+
+      <label htmlFor="idSenha">Senha</label>
+      <input type="password" className="senha" id="isSenha" />
+
+      <br />
+
+      <button className="BotaoEntrar" onClick={handleLogin}>
+        Acessar SafeDrive
+      </button>
+      
+      <button
+        className="BotaoRecuperaSenha"
+        onClick={() => alert('Reset da senha enviado para o e-mail cadastrado')}
+      >
+        Recuperar Senha
+      </button>
     </DivMec>
-  )
+  );
 }

@@ -1,4 +1,5 @@
-import CabecalhoGeral from '../../components/CabecalhoGeral';
+import Cabecalho from '../../components/Cabecalho';
+import Rodape from '../../components/Rodape';
 import { HeaderRecomendacao } from '../../styled';
 import Recomendacao1 from './Recomendacao1';
 import Recomendacao2 from './Recomendacao2';
@@ -8,7 +9,7 @@ export default function Recomendacao() {
 
   return (
     <>
-      <CabecalhoGeral/>
+      <Cabecalho/>
       <HeaderRecomendacao>
         
         <h2 >Aqui estão algumas dicas essenciais para manter seu veículo em bom estado:</h2>
@@ -18,6 +19,7 @@ export default function Recomendacao() {
             <Recomendacao3 />
         
       </HeaderRecomendacao>  
+      <Rodape/>
 
     </>
   )
