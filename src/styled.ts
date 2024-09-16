@@ -130,7 +130,8 @@ export const DivRodape = styled.div`
 
   ` 
 export const DivCabGeral = styled.div` // Caçalho geral
-  
+
+  overflow: auto;
   ul{
     display: grid;
     grid-template-columns: 1fr;
@@ -163,7 +164,7 @@ export const DivCabGeral = styled.div` // Caçalho geral
 `
 
 export const HeaderRecomendacao = styled.header`
-  
+
     box-sizing: border-box;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f0f0f0;
@@ -258,6 +259,7 @@ export const DivClien = styled.div`
 `
 
 export const HeaderHome = styled.header`  /* cabeçalho exclusivo do HOME */
+    overflow-x: hidden;
     min-height: 20px;
     display: flex;
     flex-direction: column;
@@ -395,13 +397,10 @@ export const MainCorpo = styled.main`
     top: 8px;
   }
 
-  .diagnostico {
-    top: 7px;
-  }
-
   .historico {
     top: 6px;
   }
+ 
 
 
 `
@@ -475,7 +474,7 @@ export const DivNos = styled.div`
 
 
   .Fernanda {
-
+    width: 16vw;
     position: absolute;
     margin-top: 30px;
     left: 41vw;
@@ -499,6 +498,7 @@ export const DivNos = styled.div`
 
 
   .Karen {
+    width: 16vw;
     position: absolute;
     margin-top: 30px;
     right: 7vw;

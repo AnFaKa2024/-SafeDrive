@@ -1,4 +1,4 @@
-import RodapeCad from "./Components/RodapeCad";
+
 import DadosCondutor from "./routes/CadUsuario/DadosCondutor";
 import DadosPessoais from "./routes/CadUsuario/DadosPessoais";
 import Recomendacao from "./routes/Recomendacao/Recomendacao";
@@ -19,47 +19,12 @@ import Observacao from "./routes/Relatos/Obs";
 import Filtro from "./routes/CadVeiculo/Filtro";
 import Fluido from "./routes/CadVeiculo/Fluido";
 import Historico from "./routes/Historico/Historico";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Principal />
-      <br />
-      <Nos />
-      <br />
-      <CabecalhoGeral />
-      <br />
-      <Texto />
-      <br />
-      <Corpo />
-      <br />
-      <Cabecalho />
-      <br />
-      <Recomendacao1 />
-      <br />
-      <Recomendacao2 />
-      <br />
-      <Recomendacao3 />
-      <br />
-      <br />
-      <Cliente />
-      <br />
-      <Rodape />
-      <br />
-      <br />
-      <Filtro />
-      <br />
-      <Fluido />
-      <br />
-      <Historico />
-      <br />
-      <Observacao />
-      <br />
-      <DadosCondutor />
-      <br />
-      <DadosPessoais />
-      <br />
-      <RodapeCad />
+    <Outlet/>
     </>
   );
 }

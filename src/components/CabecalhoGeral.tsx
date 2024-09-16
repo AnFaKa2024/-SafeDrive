@@ -1,23 +1,17 @@
 import { DivCabGeral } from "../styled";
+import {Link} from 'react-router-dom'
 
 export default function CabecalhoGeral(){
   
   <>
    
     <DivCabGeral>
+
       <nav>
-        <ul>
-      
-            <li>
-              <a href="/Paginas/safedrive.html" >SafeDrive</a>
-            </li>
-            <li >
-              <a href="/Paginas/clientes.html" >Clientes</a>
-            </li>
-            <li >
-              <a href="/Paginas/recomendacoes.html" >Recomendações</a>
-            </li>
-        </ul>
+        <Link to='/'>Home</Link>
+        <Link to='/safedrive'>SafeDrive</Link>
+        <Link to='/cliente'>Clientes</Link>
+        <Link to='/recomendacao'>Recomendações</Link>
       </nav>
     </DivCabGeral>
     </>

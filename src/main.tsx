@@ -5,15 +5,24 @@ import App from './App.tsx'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
+
+import Home from './routes/Home/home.tsx';
+import SafeDrive from './routes/SafeDrive/SafeDrive.tsx';
+import Cliente from './routes/Cliente/Cliente.tsx';
+import Recomendacao from './routes/Recomendacao/Recomendacao.tsx';
+import Login from './routes/OqCadastrar/Login.tsx';
+
 import CadMecanico from './routes/CadMecanico/CadMecanico.tsx';
 import CadUsuario from './routes/CadUsuario/CadUsuario.tsx';
 import CadVeiculo from './routes/CadVeiculo/CadVeiculo.tsx';
-import Error from './routes/Error/index.tsx';
+
 import NovoCondutor from './routes/OqCadastrar/NovoCondutor.tsx';
 import NovoVeiculo from './routes/OqCadastrar/NovoVeiculo.tsx';
 import PrimeiroAcesso from './routes/OqCadastrar/PrimeiroAcesso.tsx';
 import CadOficina from './routes/CadMecanico/CadOficina.tsx';
 import DadosCondutor from './routes/CadUsuario/DadosCondutor.tsx';
+
+import Error from './routes/Error/index.tsx';
 
 const router = createBrowserRouter([
   {
@@ -24,15 +33,24 @@ const router = createBrowserRouter([
     children:[
       /*{path: '/', element: <Home/>},*/
 
-      {path: '/CadUsuario/ novocondutor', element: <NovoCondutor/>},
-      {path: '/home/ novoveiculo', element: <NovoVeiculo/>},
-      {path: '/nome/ primeiroAcesso', element: <PrimeiroAcesso/>},
-      {path: '/home/ cadastromecanico', element: <CadMecanico/>},
-      {path: '/home/ cadastromecanico/ cadastrooficina', element: <CadOficina/>},
-      {path: '/home/ cadastrousuario', element: <CadUsuario/>},
+      {path: '/', element: <Home/>},
+      {path: '/safedrive', element: <SafeDrive/>},
+      {path: '/cliente', element: <Cliente/>},
+      {path: '/recomendacao', element: <Recomendacao/>},
+      {path: '/login', element: <Login/>},
+
+      {path: '/cadastrousuario', element: <CadUsuario/>},
+      //{path: '/novocondutor/ cadastrousuario', element: <DadosCondutor/>},
+
+      {path: '/cadastromecanico', element: <CadMecanico/>},
+      //{path: '/cadastromecanico/cadastrooficina', element: <CadOficina/>},
+
+      {path: '/novoveicuo/ cadastroveiculo', element: <CadVeiculo/>}
+      //{path: '/novoveiculo', element: <NovoVeiculo/>},
+
+      //{path: '/CadUsuario/ novocondutor', element: <NovoCondutor/>},
+      //{path: 'primeiroAcesso', element: <PrimeiroAcesso/>},
       
-      {path: '/home/ novocondutor/ cadastrousuario', element: <DadosCondutor/>},
-      {path: '/home/ novoveicuo/ cadastroveiculo', element: <CadVeiculo/>}
       
     ]
   }

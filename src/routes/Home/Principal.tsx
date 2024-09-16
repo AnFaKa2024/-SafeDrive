@@ -1,5 +1,5 @@
 import { HeaderHome } from "../../styled";
-
+import {Link} from 'react-router-dom'
 
 
 export default function Principal(){
@@ -16,20 +16,18 @@ export default function Principal(){
         <nav className="navegacao">
           <ul>
             <div className="SD">
-              <li><a href="">SafeDrive</a></li>
+              <li><Link to='/safedrive'>SafeDrive</Link></li>
             </div>
             <div className="Cl">
-              <li><a href="">Clientes</a></li>
+              <li><Link to='/cliente'>Clientes</Link></li>
             </div>
             <div className="Rec">
-              <li><a href="">Recomendações</a></li>
+              <li><Link to='/recomendacao'>Recomendações</Link></li>
             </div>
           </ul>
-        </nav>
+      </nav>
         
-        
-        {/* esse login deve ficar na pagina HOME */}
-        <img src='/icone_cliente_branco2.png' className="login" alt="Ícone Cliente"  />
+    
 
 
       </HeaderHome>
