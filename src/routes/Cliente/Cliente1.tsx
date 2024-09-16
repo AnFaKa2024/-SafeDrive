@@ -1,13 +1,13 @@
 import { DivClien } from "../../styled";
 
-export default function Cliente3() {
+export default function Cliente1() {
 
   return (
     <DivClien>
       <p>
-        <span><b>Beto, 40 anos</b></span>, atuando como mecânico, se viu obrigado a postergar o conserto de um caminhão devido ao atraso na
-        entrega da peça de reposição. O SafeDrive tem como objetivo otimizar o atendimento e o agendamento,
-        minimizando tais contratempos e garantindo uma maior eficiência no processo.
+        <span><b>Carlos, 46 anos</b></span>, como usuário, necessitou de um atendimento rápido para identificar o problema do seu carro.
+         O SafeDrive tem o potencial de acelerar não apenas o processo de diagnóstico do defeito, mas também a
+        elaboração do orçamento, proporcionando a Carlos uma experiência mais eficiente e sem complicações.
       </p>
     </DivClien>
   );
